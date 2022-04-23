@@ -1,0 +1,12 @@
+D:\Programming\Sharp\PolandNotation\MathExpressions\bin\Debug\net5.0\MathExpressions.deps.json
+D:\Programming\Sharp\PolandNotation\MathExpressions\bin\Debug\net5.0\MathExpressions.dll
+D:\Programming\Sharp\PolandNotation\MathExpressions\bin\Debug\net5.0\MathExpressions.pdb
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.csproj.AssemblyReference.cache
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.AssemblyInfoInputs.cache
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.AssemblyInfo.cs
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.csproj.CoreCompileInputs.cache
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.dll
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\refint\MathExpressions.dll
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\MathExpressions.pdb
+D:\Programming\Sharp\PolandNotation\MathExpressions\obj\Debug\net5.0\ref\MathExpressions.dll
