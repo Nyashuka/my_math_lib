@@ -1,0 +1,12 @@
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.csproj.AssemblyReference.cache
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.AssemblyInfoInputs.cache
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.AssemblyInfo.cs
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.csproj.CoreCompileInputs.cache
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\bin\Debug\net5.0\MyMathLibrary.deps.json
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\bin\Debug\net5.0\MyMathLibrary.dll
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\bin\Debug\net5.0\MyMathLibrary.pdb
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.dll
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\refint\MyMathLibrary.dll
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\MyMathLibrary.pdb
+D:\Programming\Sharp\MyMathLibrary\MyMathLibrary\obj\Debug\net5.0\ref\MyMathLibrary.dll
