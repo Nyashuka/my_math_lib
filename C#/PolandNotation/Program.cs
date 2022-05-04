@@ -1,4 +1,4 @@
-﻿using Aveezan.Math.Expressions;
+﻿using Aveezan.MathExpressions;
 
 using org.mariuszgromada.math.mxparser;
 using System;
@@ -43,19 +43,19 @@ namespace PolishNotation
         {
             string expression = "1.5-x^(1-cos(x))";
             string expression1 = "3*x^(3/5)+1";
-            string expression2 = "lg(10)";
+            string expression2 = "-5";
 
             Argument argument = new Argument("x");
-            argument.setArgumentValue(1);
+            argument.setArgumentValue(-5);
             Expression mxParser = new Expression(expression2, argument);
 
             MathExpression calculator = new MathExpression(expression2);
-            calculator.SetArgument("x", 1);
+            calculator.SetArgument("x", -5);
             
 
-            Console.WriteLine("\nResult: " + mxParser.calculate());
-            Console.WriteLine("\nResult: " + calculator.Calculate());
-            Console.WriteLine("\nResult: " + Math.Log10(10));
+            Console.WriteLine("\nMxParse Result: " + mxParser.calculate());
+            Console.WriteLine("\nMy Result: " + calculator.Calculate());
+            //Console.WriteLine("\nC# Result: " + Math.Log10(10));
 
         }
     }

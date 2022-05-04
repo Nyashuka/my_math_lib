@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="MathExpressions">
-      <HintPath>..\MathExpressions\bin\Debug\net5.0\MathExpressions.dll</HintPath>
+    <Reference Include="MyMathLibrary">
+      <HintPath>..\MyMathLibrary\MyMathLibrary\bin\Debug\net5.0\MyMathLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
 

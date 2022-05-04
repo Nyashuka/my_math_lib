@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1B0fGaeoeeqfXysfIGykx4fg2SbrU08LBTMBM1qu5QzlMh3qzruuQICNBbguAWwmIAQEjmrDrT9EBi41HVg+A==",
+  "dgSpecHash": "SCBKaQKkHi1B5BT7+wB3Lm15ky2gjX4DnAE66ixwL7WSrzt/iYOQYv7+kU65TNIfrJpIyHDtG1/Kd+LKpj5XgA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Sharp\\PolandNotation\\MathExpressions\\MathExpressions.csproj",
+  "projectFilePath": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MathExpressions\\MathExpressions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jx+9YPVjzDUsvF1Y3p+KfUI5qbuRqNYFM2HCjDkPP6ZwSibsjw/LqtgbqCe2PPk69CDW+CyQwqZNb3AlbBzsMw==",
+  "dgSpecHash": "GqGHhFjiWUcS5ZzyT2ZQptK7ipgmeNINojXZ2SZMHGJiuanlDbJHDt72f7pymUIF5EcCHR8OUQ3reMhGtMJCEg==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Sharp\\PolandNotation\\PolandNotation\\PolishNotation.csproj",
+  "projectFilePath": "D:\\Programming\\Sharp\\MyMathLib\\C#\\PolandNotation\\PolishNotation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nyashuka\\.nuget\\packages\\mathparser.org-mxparser\\5.0.2\\mathparser.org-mxparser.5.0.2.nupkg.sha512"
   ],

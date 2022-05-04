@@ -62,7 +62,7 @@ namespace Aveezan.MathExpressions
             {
                 if (_operators.Contains(expression[i].ToString()))
                 {
-                    if (expression[i] == '-' && (expression[i - 1] == '(' || i == 0))
+                    if (expression[i] == '-' && (i == 0 || expression[i - 1] == '('))
                     {
                         isNegative = true;
                         continue;
@@ -258,39 +258,51 @@ namespace Aveezan.MathExpressions
             return _operators.Contains(str);
         }
 
-        private void ReplaceArgumentValue(List<string> rpnString)
+        private List<string> ReplaceArgumentValue(List<string> rpnString)
         {
-            for (int i = 0; i < rpnString.Count; i++)
+            List<string> newRpnString = new List<string>();
+
+            foreach (var currentElement in rpnString)
             {
-                if (IsArgument(rpnString[i]))
+                string newCurrentElement = currentElement;
+
+                if (IsArgument(currentElement))
                 {
-                    string number = "";
-                    if (IsNegative(rpnString[i]))
+                    if(IsNegative(currentElement))
                     {
-                        number = rpnString[i][1].ToString();
-                        number = number.Replace(number, Convert.ToString(_arguments[number]));
-                        number = "-" + number;
+                        newCurrentElement = newCurrentElement.Remove(0, 1);
+                        if(_arguments[newCurrentElement] <= 0.0)
+                        {
+                            newCurrentElement = Convert.ToString(_arguments[newCurrentElement] * -1);
+                        }
+                        else
+                        {
+                            newCurrentElement = "-" + _arguments[newCurrentElement];
+                        }
                     }
                     else
                     {
-                        number = rpnString[i].Replace(rpnString[i], Convert.ToString(_arguments[rpnString[i]]));
+                        newCurrentElement = Convert.ToString(_arguments[newCurrentElement]);
                     }
-
-                    rpnString[i] = number;
                 }
+
+                newRpnString.Add(newCurrentElement);
+
             }
+
+            return newRpnString;
         }
 
         private double CalculateRPN(List<string> rpnString)
         {
-            ReplaceArgumentValue(rpnString);
+            List<string> newRpnString = ReplaceArgumentValue(rpnString);
             Stack<double> numbers = new Stack<double>();
             double firstOperand;
             double secondOperand;
             double result = 0;
             try
             {
-                foreach (var element in rpnString)
+                foreach (var element in newRpnString)
                 {
                     if (IsNumber(element))
                     {

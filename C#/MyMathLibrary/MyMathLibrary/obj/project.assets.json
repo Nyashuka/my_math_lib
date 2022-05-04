@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Sharp\\MyMathLibrary\\MyMathLibrary\\MyMathLibrary.csproj",
+      "projectUniqueName": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MyMathLibrary\\MyMathLibrary\\MyMathLibrary.csproj",
       "projectName": "MyMathLibrary",
-      "projectPath": "D:\\Programming\\Sharp\\MyMathLibrary\\MyMathLibrary\\MyMathLibrary.csproj",
+      "projectPath": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MyMathLibrary\\MyMathLibrary\\MyMathLibrary.csproj",
       "packagesPath": "C:\\Users\\Nyashuka\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Sharp\\MyMathLibrary\\MyMathLibrary\\obj\\",
+      "outputPath": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MyMathLibrary\\MyMathLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

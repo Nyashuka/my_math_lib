@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "PolishNotation/1.0.0": {
         "dependencies": {
-          "MathParser.org-mXparser": "5.0.2"
+          "MathParser.org-mXparser": "5.0.2",
+          "MyMathLibrary": "1.0.0.0"
         },
         "runtime": {
           "PolishNotation.dll": {}
@@ -19,6 +20,14 @@
           "lib/net5.0/MathParser.org-mXparser.dll": {
             "assemblyVersion": "5.0.2.0",
             "fileVersion": "5.0.2.0"
+          }
+        }
+      },
+      "MyMathLibrary/1.0.0.0": {
+        "runtime": {
+          "MyMathLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -36,6 +45,11 @@
       "sha512": "sha512-JIK3DTQ0fMOkf6wIC5e06Ki20QqVAEZOEddR75lJ7A8K5SczttfL0I8uW8jnMFWfAkVB0NTe9IDEhaRPS8fZ2Q==",
       "path": "mathparser.org-mxparser/5.0.2",
       "hashPath": "mathparser.org-mxparser.5.0.2.nupkg.sha512"
+    },
+    "MyMathLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

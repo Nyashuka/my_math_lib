@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Sharp\\PolandNotation\\MathExpressions\\MathExpressions.csproj": {}
+    "D:\\Programming\\Sharp\\MyMathLib\\C#\\MathExpressions\\MathExpressions.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Sharp\\PolandNotation\\MathExpressions\\MathExpressions.csproj": {
+    "D:\\Programming\\Sharp\\MyMathLib\\C#\\MathExpressions\\MathExpressions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Sharp\\PolandNotation\\MathExpressions\\MathExpressions.csproj",
+        "projectUniqueName": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MathExpressions\\MathExpressions.csproj",
         "projectName": "MathExpressions",
-        "projectPath": "D:\\Programming\\Sharp\\PolandNotation\\MathExpressions\\MathExpressions.csproj",
+        "projectPath": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MathExpressions\\MathExpressions.csproj",
         "packagesPath": "C:\\Users\\Nyashuka\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Sharp\\PolandNotation\\MathExpressions\\obj\\",
+        "outputPath": "D:\\Programming\\Sharp\\MyMathLib\\C#\\MathExpressions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

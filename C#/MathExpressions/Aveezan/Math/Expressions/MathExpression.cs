@@ -52,7 +52,7 @@ namespace Aveezan.Math.Expressions
         private List<string> ExpressionToReversePolishNotation(string expression)
         {
             expression = expression.Replace(" ", "");
-            List<string> rpnString = new List<string>(); ;
+            List<string> rpnString = new List<string>();
             Stack<string> operators = new Stack<string>();
 
             int currentIndex = 0;
