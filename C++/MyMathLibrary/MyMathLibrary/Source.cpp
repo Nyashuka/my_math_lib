@@ -10,7 +10,7 @@ int main()
 {
 	
 
-	MathExpressions::MathExpression expression("(2+2)*2");
+	MathExpressions::MathExpression expression("x*sin(1)+3^(1+1)");
 	expression.SetArgument("x", 2);
 
 	cout << expression.Calculate() << endl;

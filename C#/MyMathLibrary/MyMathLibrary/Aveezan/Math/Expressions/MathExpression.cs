@@ -33,7 +33,7 @@ namespace Aveezan.MathExpressions
         private int GetPriority(string operation)
         {
             if (operation == "sin" || operation == "cos" || operation == "tan" || operation == "ctg" || operation == "^")
-                return 3;
+                return 4;
             if (operation == "*" || operation == "/")
                 return 3;
             if (operation == "+" || operation == "-")
@@ -102,7 +102,7 @@ namespace Aveezan.MathExpressions
                     while (i < expression.Length)
                     {
                         function += expression[i];
-                        if (Char.IsLetter(expression[i + 1]) || Char.IsDigit(expression[i + 1]))
+                        if (i+1 < expression.Length && (Char.IsLetter(expression[i + 1]) || Char.IsDigit(expression[i + 1])))
                             i++;
                         else
                             break;

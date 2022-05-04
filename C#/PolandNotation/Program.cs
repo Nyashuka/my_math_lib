@@ -43,14 +43,14 @@ namespace PolishNotation
         {
             string expression = "1.5-x^(1-cos(x))";
             string expression1 = "3*x^(3/5)+1";
-            string expression2 = "-5";
+            string expression2 = "sin(1)*x";
 
             Argument argument = new Argument("x");
-            argument.setArgumentValue(-5);
+            argument.setArgumentValue(2);
             Expression mxParser = new Expression(expression2, argument);
 
             MathExpression calculator = new MathExpression(expression2);
-            calculator.SetArgument("x", -5);
+            calculator.SetArgument("x", 2);
             
 
             Console.WriteLine("\nMxParse Result: " + mxParser.calculate());

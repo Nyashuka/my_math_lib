@@ -43,6 +43,6 @@ namespace JustHelper
 {
 	bool IsDigit(char symbol);
 	std::vector<std::string> SplitString(std::string str, char symbolForSplit = ' ');	
-	std::string Replace(std::string str, char symbolForReplace, std::string symbolForInsert);
+	bool Replace(std::string& str, const std::string& from, const std::string& to);
 	void ReplaceAll(std::string& str, const std::string& from, const std::string& to);
 }

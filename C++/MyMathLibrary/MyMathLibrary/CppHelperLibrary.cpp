@@ -25,7 +25,7 @@ namespace MathExpressions
 	int MathExpression::GetPriority(std::string operation)
 	{
 		if (operation == "sin" || operation == "cos" || operation == "tan" || operation == "ctg" || operation == "^")
-			return 3;
+			return 4;
 		if (operation == "*" || operation == "/")
 			return 3;
 		if (operation == "+" || operation == "-")
@@ -104,8 +104,7 @@ namespace MathExpressions
 				{
 					if (i + 1 < expression.size())
 					{
-						operators.push(function);
-						operators.push(std::string(1, expression[i+1]));
+						operators.push(function);			
 					}
 
 				}
@@ -380,19 +379,16 @@ namespace JustHelper
 		return allData;
 	}
 
-	std::string Replace(std::string str, std::string symbolForReplace, std::string symbolForInsert)
+	bool Replace(std::string& str, const std::string& from, const std::string& to) 
 	{
-		std::string newString = "";
+		size_t start_pos = str.find(from);
 
-		for (size_t i = 0; i < str.size(); i++)
-		{
-			if (str[i] == symbolForReplace[0])
-				newString += symbolForInsert;
-			else
-				newString += str[i];
-		}
+		if (start_pos == std::string::npos)
+			return false;
 
-		return newString;
+		str.replace(start_pos, from.length(), to);
+
+		return true;
 	}
 
 	void ReplaceAll(std::string& str, const std::string& from, const std::string& to) 
