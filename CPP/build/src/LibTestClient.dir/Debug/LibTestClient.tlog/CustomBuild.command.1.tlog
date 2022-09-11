@@ -1,0 +1,10 @@
+^D:\PROGRAMMING\PROJECTS\MYMATHLIB\CMAKEPEOJECT\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Programming/Projects/MyMathLib/CMakePeoject -BD:/Programming/Projects/MyMathLib/CMakePeoject/build --check-stamp-file D:/Programming/Projects/MyMathLib/CMakePeoject/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

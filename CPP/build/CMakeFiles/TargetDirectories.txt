@@ -1,0 +1,5 @@
+D:/Programming/Projects/MyMathLib/CMakePeoject/build/CMakeFiles/ALL_BUILD.dir
+D:/Programming/Projects/MyMathLib/CMakePeoject/build/CMakeFiles/ZERO_CHECK.dir
+D:/Programming/Projects/MyMathLib/CMakePeoject/build/lib/CMakeFiles/MyMathLibrary.dir
+D:/Programming/Projects/MyMathLib/CMakePeoject/build/src/CMakeFiles/LibTestClient.dir
+D:/Programming/Projects/MyMathLib/CMakePeoject/build/src/CMakeFiles/ALL_BUILD.dir
